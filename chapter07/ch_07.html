@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <script>
+    
+    // Chapter 7 Math expressions: Eliminating ambiguity
+
+    var a = 4 + 5 * 2 - 1;
+    var a = (4 + (5 * 2)) - 1;
+    alert(a);
+
+    var b = (4 + 5) * 2 - 1;
+    alert(b);
+
+    var c = 5;
+    var d = 3;
+         
+    var e = c - d * c + d;
+    var f = 5 - 15 + 3;
+    alert(e);
+
+//  Chapter 7 part: 2 Math expressions: Eliminating ambiguity 
+    var a = 5;
+    var b = 3;
+
+    var c = a + b;  
+
+    alert(a);
+
+    var d = a + b  *  a; 
+
+    alert(d);  
+
+    var e = a - b * b + 5;
+
+    alert(e);
+
+    var f = (a + b) * a - 3;
+
+    alert(f);
+
+    var g = (a + b) * (a - 3);
+
+    alert(g);
+
+  </script>
+</html>

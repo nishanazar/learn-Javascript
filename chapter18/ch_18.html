@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<script>
+    //for loops
+    
+ 
+    var num = 2;
+
+alert(num+" * 1 = "+ (num*1));
+alert(num+" * 2 = "+ (num*2));
+alert(num+" * 3 = "+ (num*3))
+alert(num+" * 4 = "+ (num*4))
+alert(num+" * 5 = "+ (num*5))
+//--------------------------
+for(var a = 0; a < 3 ; a++){
+        alert("Hello "+a);       
+    }
+    //-------------------------
+    for(var a = 0; a < 6 ; a = a+2){
+        alert("Hello "+a);
+    }
+    //-------------------------------
+    for(var a = 0; a < 12 ; a+=4){
+        alert("Hello "+a);
+    }
+    //---------------------------
+    var cities = ["Karachi","Lahore","Islamabad","Peshawar","Hyderabad"];
+    
+    alert(cities[0]);
+    alert(cities[1]);
+    alert(cities[2]);
+    alert(cities[3]);
+    alert(cities[4]);
+    
+
+    for(var i=0; i<6; i++){
+        alert(cities[i]);       
+    }
+    //---------------------------
+    var cities = ["Karachi", "lahore", "islamabad", "Peshawar", "Hyderabad"]
+    var muCity = prompt("Enter your city")
+    for(var i= 0; i <5; i++){
+        if (muCity === cities[i]){
+            alert("City Found")
+        }else{
+            alert("Not City Found")
+        }
+       
+    }
+</script>
+</html>

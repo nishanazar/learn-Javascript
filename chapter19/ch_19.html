@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<script>
+   
+   var cities = ["Karachi","Lahore","Islamabad","Peshawar","Hyderabad"]; 
+  var muCity = prompt("Enter your city")
+  var matchFound = "no"
+
+  for(var i =0 ; i <5 ; i++){
+    if(muCity === cities[i]){
+        alert("City Found");
+        matchFound = "yes"
+    }
+  }
+  if (matchFound === "no"){
+    alert("Sory, your city is not in the list")
+  }
+  //--------------------------
+  var cities = ["Karachi","Lahore","Islamabad","Peshawar","Hyderabad","Quetta"];
+
+var myCity = "Islamabad";
+var matchFound = false;
+var numLength = cities.length;
+
+for(var i=0; i< numLength ; i++){
+    if(myCity === cities[i]){
+        alert("City Found");
+        matchFound = true;
+        break;
+    }
+    alert(i);
+}
+
+if(matchFound === false){
+    alert("Sorry,Your city is not in the list!");
+}
+</script>
+
+</html>

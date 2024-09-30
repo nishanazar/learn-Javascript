@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+</head>
+<script>
+   
+
+    var myCity = "karachi"
+    var newText = myCity.slice(0,3);
+    alert(newText);
+
+    var newText2 = myCity.slice(2,6);
+    alert(newText2);
+
+    var newText3 = myCity.slice(2);
+    alert(newText3);
+    //-----------------------------
+    var a = "karachi";
+    var b = a.toUpperCase();
+    alert(a);
+    alert(b);
+    //-------------------------------
+    var myCity = "kArAchI"
+    alert(myCity);
+    var firstChar = myCity.slice(0,1);
+    var otherChar = myCity.slice(1);
+    alert(firstChar);
+    alert(otherChar);
+    //----------------------------
+    var myCity = "Karachi"
+    alert(myCity.length);
+    //-----------------------------
+    var month = prompt("Enter a month");
+    alert(month)
+    var monthLength = month.length;
+    alert(monthLength)
+    if (monthLength > 3){
+        alert("Correct input");
+        alert(month.slice(0,3))
+    }else {
+        alert("Wrong input")
+        alert(month)
+    }
+</script>
+</html>

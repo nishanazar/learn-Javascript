@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <script>
+    var text = "The quick brown fox jumps over the lazy dog";
+    var nextText1 = text.replace("brown", "white");
+    var nextText2 = text.replace("lazy", "white");
+    alert(text);
+    alert(nextText1);
+    alert(nextText2);
+
+    //---------------------------------
+    var text = "the quick brown the fox jumps over the lazy dog";
+    var nextText1 = text.replace("the", "not");
+    var nextText2 = text.replace(/the/g,"not");
+    alert(text);
+    alert(nextText1);
+    alert(nextText2);
+  </script>
+</html>

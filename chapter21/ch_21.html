@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+</head>
+<script>
+    var cities = ["karachi", "Lahore", "Islamabd", "Hyderabad"]
+var myCity = "KarAchi"
+alert(myCity.toUpperCase());
+alert(myCity.toLowerCase())
+
+for (var i=0; cities.length; i++){
+    if (cities[i]=== myCity){
+        alert("City found")
+    }
+}
+//----------------------------
+var cities = ["Karachi","Lahore","Islamabd","Hyderabad"];
+
+var myCity = "KarAchI"
+
+
+for(var i=0;i< cities.length;i++){
+    //if(cities[i].toLowerCase() === myCity.toLowerCase()){
+    if(cities[i].toUpperCase() === myCity.toUpperCase()){    
+        alert("City Found");
+    }
+}
+</script>
+</html>
