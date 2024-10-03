@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <script>
+    //--- Specifying a date and time -----
+
+    var rightNow = new Date();
+    alert(rightNow);
+    //rightNow.getTime();
+    var otherDay = new Date("October 1, 2024");
+    alert(otherDay);
+
+    var msDiff = otherDay.getTime() - rightNow.getTime();
+    alert(msDiff);
+
+    var diffInDays = msDiff / (1000 * 60 * 60 * 24);
+    alert(diffInDays);
+
+    //--------------------------------
+    var rightNow = new Date();
+    alert(rightNow);
+    rightNow.getTime();
+
+    var birthdayCelebrationDate = new Date("June 11, 2017 19:00:00");
+    alert(birthdayCelebrationDate);
+
+    var msDiff = birthdayCelebrationDate.getTime() - rightNow.getTime();
+    alert(msDiff);
+
+    var diffInDays = msDiff / (1000 * 60 * 60 * 24);
+    alert(diffInDays);
+  </script>
+</html>

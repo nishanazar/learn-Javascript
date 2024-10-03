@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+
+  <script>
+    var a = 23;
+    var b = "23";
+
+    var c = b + 5;
+    var d = a + 5;
+
+    alert(c);
+    alert(d);
+    //---------------------
+    var a = prompt("Please enter your age to continue.");
+
+    var b = a + 5;
+
+    alert(a);
+    alert(b);
+    //------------------------
+    var currentAge = prompt("Please enter your age to continue.");
+    var eligibleAgeToVote = currentAge - 18;
+    var concatNumbers = currentAge + 18;
+
+    alert(eligibleAgeToVote);
+    alert(concatNumbers);
+    //------------------------
+    // Converting strings to integers and decimals
+
+    var profit = "200" - "150";
+    var profit1 = "200" - "duck";
+
+    alert(profit);
+
+    alert(profit1);
+    //-----------------------
+    var currentAge = prompt("Please enter your age to continue.");
+    var qualifyingAge = parseInt(currentAge) + 1;
+    var ageStr = currentAge + 1;
+
+    alert(currentAge);
+    alert(qualifyingAge);
+    alert(ageStr);
+    //----------------------------
+    var num = "2.333";
+    var convertedNum = parseInt(num);
+    var convertedNumDecimal = parseFloat(num);
+    var newVal = convertedNumDecimal + 1;
+
+    alert(num);
+    alert(convertedNum);
+    alert(convertedNumDecimal);
+    alert(newVal);
+  </script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <script>
+    //-------for----------------
+    for (var a = 0; a < 2; a++) {
+      alert("A= " + a);
+    }
+
+    //------While---------------
+    var b = 0;
+    while (b < 2) {
+      alert("B = " + b);
+      b++;
+    }
+    //----------while-------------
+    var doContinue = true;
+    while (doContinue) {
+      alert("Hello World");
+      doContinue = false;
+    }
+    //-------------------------
+    var doContinue = true;
+    while (doContinue) {
+      alert("Hello World");
+      var userInput = prompt(
+        "Do you want to continue? Please press Y for yes or any key for No"
+      );
+      alert(userInput);
+    }
+    //-----------------------
+    var doContinue = true;
+    while (doContinue) {
+      alert("Hello World");
+      var userInput = prompt(
+        "Do you want to continue? Please press Y for yes or any key for No"
+      );
+      alert(userInput);
+      if (userInput !== "y") {
+        doContinue = false;
+      }
+    }
+  </script>
+</html>
